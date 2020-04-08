@@ -31,7 +31,13 @@ a:hover {
     color: #cccccc;
     font-size: 1px;
 }
-
+.row-footer, .partenaires {
+    display: flex;
+    justify-content: center;
+}
+.partenaires {
+    margin: 20px 0;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -709,11 +715,13 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h2, .serv_agence {
     font-size: 22px;
     line-height: 1.4em;
 }
-
+.serv_reco {
+    font-size: 13px;
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
