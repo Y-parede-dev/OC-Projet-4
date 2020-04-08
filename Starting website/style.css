@@ -34,6 +34,11 @@ a:hover {
 .parlons {
     color: white!important;
 }
+.bloc-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .row-footer, .partenaires {
     display: flex;
     justify-content: center;
