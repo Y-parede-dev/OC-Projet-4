@@ -31,6 +31,9 @@ a:hover {
     color: #cccccc;
     font-size: 1px;
 }
+.parlons {
+    color: white!important;
+}
 .row-footer, .partenaires {
     display: flex;
     justify-content: center;
