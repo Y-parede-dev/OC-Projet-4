@@ -31,8 +31,8 @@ a:hover {
     color: #cccccc;
     font-size: 1px;
 }
-.parlons {
-    color: white!important;
+.parlons, .partenaires > li {
+    color: black!important;
 }
 .bloc-form {
     display: flex;
@@ -666,11 +666,15 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: black!important;
 }
 
 .container {
@@ -796,12 +800,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
