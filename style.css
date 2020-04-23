@@ -26,13 +26,32 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.list-social {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.list-social li {
+    margin: auto 3.5rem;
+    }
 .keywords {
     color: #cccccc;
     font-size: 1px;
 }
+.quote {
+    font-size: 2.5rem;
+}
+.title-section {
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: bolder;
+    margin: 0 0 2rem;
+}
 .parlons, .partenaires > li {
     color: black!important;
+}
+.parlons {
+    font-size: 1.4rem;
 }
 .bloc-form {
     display: flex;
@@ -60,6 +79,7 @@ a:hover {
 
 .bloc .container {
     padding-left: 0;
+    padding-top: 2rem; 
     padding-right: 0;
 }
 
@@ -700,7 +720,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.4rem;
 }
 
 .tight-width-whitespace {
@@ -1058,10 +1078,16 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .list-social li {
+        margin: auto 2.8rem;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    img {
+        margin:auto;
     }
 }
