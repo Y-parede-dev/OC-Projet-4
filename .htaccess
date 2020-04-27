@@ -1,0 +1,6 @@
+AuthUserFile {chemin d'accès au fichier de mots de passe}
+AuthGroupFile /dev/null
+AuthName {"zone de dialogue"}
+AuthType Basic
+
+Cache-control: max-age=3600
